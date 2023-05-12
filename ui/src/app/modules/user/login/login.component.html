@@ -1,0 +1,11 @@
+<div class="login-card">
+    <h2>Login</h2>
+    <h3>Acesse sua Super Conta</h3>
+
+    <form class="login-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="email" placeholder="Super conta">
+        <input type="password" formControlName="password"  placeholder="Senha mais secreta">
+        <a href="#">Esqueceu sua senha mais sercreta2?</a>
+        <button type="submit">Login</button>
+    </form>
+</div>
